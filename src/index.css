@@ -1,13 +1,252 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+* {
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: 'Poppins', sans-serif;
+}
+html{
+  scroll-behavior: smooth;
+  background-color: #000000e8;
+  position: absolute;
+}
+.container {
+  max-width: 100vh;
+  margin: 30px auto;
+  overflow: auto;
+  max-height: 1000px;
+  
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.header {
+  color: aliceblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 20px;
+
+}
+
+.btn {
+  display: inline-block;
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+}
+.btnno
+{
+
+  display: inline-block;
+  background:red;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+  content: "Close";
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.btn-block {
+  display:grid;
+  width: 100%;
+}
+
+.task {
+  background: #f4f4f4;
+  margin: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.task.reminder {
+  border-left: 20px solid green;
+}
+
+.task h3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form {
+  margin-bottom: 40px;
+}
+
+.form-group {
+  margin: 20px 0;
+}
+
+.form-group label {
+  display: block;
+}
+
+.form-group input {
+  width: 100%;
+  height: 40px;
+  margin: 5px;
+  padding: 3px 7px;
+  font-size: 17px;
+}
+
+.form-group-check {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form-group-check label {
+  flex: 1;
+}
+
+.form-group-check input {
+  flex: 2;
+  height: 10px;
+}
+.timer{
+  justify-content: center;
+  display: flex;
+  padding: 40px;
+  margin: 40px;
+  margin-bottom: 20%;
+  height: 0px;
+  
+
+}
+.timer1{
+  justify-content: center;
+  display: flex;
+  padding: 40px;
+  margin: 40px;
+  margin-bottom: 20%;
+  height: 0px;
+  
+
+}
+ 
+.timebutton{
+  display: flex;
+  position: relative;
+  
+
+  background-color: rgb(177, 51, 2);
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px;
+  height: 60px;
+  width: 150px;
+  
+
+  
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 20px;
+  cursor:pointer;
+}
+.timebutton2{
+  display: flex;
+  position: relative;
+  
+
+  background-color:#f7910b;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px;
+  height: 60px;
+  width: 150px;
+
+  
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 20px;
+  cursor:pointer;
+}
+.timebutton1{
+  display: flex;
+  position: relative;
+  background-color:#0b8df7;
+
+  
+
+ 
+  justify-content: center;
+  flex-direction: row;
+  padding: 10px;
+  height: 60px;
+  width: 150px;
+
+  
+
+  
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 20px;
+  cursor:pointer;
+}
+  
+
+
+footer {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.timebutton:hover{
+  color: #000;
+
+  background-color: rgb(255, 238, 0);
+ 
+  
+}
+.timebutton1:hover{
+  color: #000;
+  background-color: rgb(255, 238, 0);
+ 
+  
+}
+
+.timebutton2:hover{
+  color: #000;
+
+  background-color: rgb(255, 238, 0);
+ 
+  
+}
+.navbut:hover{
+  color: #000;
+  background-color: rgb(235, 213, 15);
+ 
+  
+}
+.container{
+  background-color: #000000e8;
+}
+.navbuttons{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  
+
 }
