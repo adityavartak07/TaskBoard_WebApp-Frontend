@@ -18,28 +18,7 @@ import Timer15 from './components/Time15';
 function App() {
   const [showadd, setShowAdd] = useState(false)
   const [tasks, setTasks] = useState([
-    {
-      id: 0,
-      Task: "Aditya Vartak",
-      Day: "12 August",
-
-      Reminder: "true"
-
-
-
-
-    },
-    {
-      id: 1,
-      Task: "Rutvik Choudhari",
-      Day: "12 april",
-
-      Reminder: "true"
-
-
-
-
-    }
+    
 
   ])
 
