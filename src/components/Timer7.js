@@ -12,7 +12,7 @@ function Timer7() {
        
         setFlag(!flag);
         if(flag){
-         timer(10);
+         timer(420);
         }
 
     }
