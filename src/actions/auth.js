@@ -8,7 +8,7 @@ export const signin = (formData, router) => async (dispatch) => {
     console.log("user data", data);
     dispatch({ type: AUTH, data });
 
-    router.push("/done");
+    router.push("/");
   } catch (error) {
     console.log(error);
   }
