@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
 
 * {
   box-sizing: border-box;
@@ -7,19 +7,27 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  /* background-color: black; */
 }
-html{
+html {
   scroll-behavior: smooth;
-  background-color: #000000e8;
-  position: absolute;
+  /* background-color: #000000e8; */
+  position: relative;
 }
 .container {
   max-width: 100vh;
-  margin: 30px auto;
+  /* margin: 30px auto; */
   overflow: auto;
-  max-height: 1000px;
-  
+  max-height: 100vh;
+
+  /* alignItems:center; */
+  /* margin: 25px; */
+
+  /* justify-content: center; */
+
   padding: 30px;
   border-radius: 5px;
 }
@@ -31,7 +39,6 @@ html{
   align-items: center;
 
   margin-bottom: 20px;
-
 }
 
 .btn {
@@ -47,11 +54,9 @@ html{
   font-size: 15px;
   font-family: inherit;
 }
-.btnno
-{
-
+.btnno {
   display: inline-block;
-  background:red;
+  background: red;
   color: black;
   border: none;
   padding: 10px 20px;
@@ -73,7 +78,7 @@ html{
 }
 
 .btn-block {
-  display:grid;
+  display: grid;
   width: 100%;
 }
 
@@ -128,31 +133,26 @@ html{
   flex: 2;
   height: 10px;
 }
-.timer{
+.timer {
   justify-content: center;
   display: flex;
   padding: 40px;
   margin: 40px;
   margin-bottom: 20%;
   height: 0px;
-  
-
 }
-.timer1{
+.timer1 {
   justify-content: center;
   display: flex;
   padding: 40px;
   margin: 40px;
   margin-bottom: 20%;
   height: 0px;
-  
-
 }
- 
-.timebutton{
+
+.timebutton {
   display: flex;
   position: relative;
-  
 
   background-color: rgb(177, 51, 2);
   flex-direction: row;
@@ -160,93 +160,71 @@ html{
   padding: 10px;
   height: 60px;
   width: 150px;
-  
 
-  
-  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 20px;
-  cursor:pointer;
+  cursor: pointer;
 }
-.timebutton2{
+.timebutton2 {
   display: flex;
   position: relative;
-  
 
-  background-color:#f7910b;
+  background-color: #f7910b;
   flex-direction: row;
   justify-content: center;
   padding: 10px;
   height: 60px;
   width: 150px;
 
-  
-  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 20px;
-  cursor:pointer;
+  cursor: pointer;
 }
-.timebutton1{
+.timebutton1 {
   display: flex;
   position: relative;
-  background-color:#0b8df7;
+  background-color: #0b8df7;
 
-  
-
- 
   justify-content: center;
   flex-direction: row;
   padding: 10px;
   height: 60px;
   width: 150px;
 
-  
-
-  
-  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 20px;
-  cursor:pointer;
+  cursor: pointer;
 }
-  
-
 
 footer {
   margin-top: 30px;
   text-align: center;
 }
 
-.timebutton:hover{
+.timebutton:hover {
   color: #000;
 
   background-color: rgb(255, 238, 0);
- 
-  
 }
-.timebutton1:hover{
+.timebutton1:hover {
   color: #000;
   background-color: rgb(255, 238, 0);
- 
-  
 }
 
-.timebutton2:hover{
+.timebutton2:hover {
   color: #000;
 
   background-color: rgb(255, 238, 0);
- 
-  
 }
-.navbut:hover{
+.navbut:hover {
   color: #000;
   background-color: rgb(235, 213, 15);
- 
-  
 }
-.container{
+.container {
   background-color: #000000e8;
 }
-.navbuttons{
+.navbuttons {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  
-
 }
