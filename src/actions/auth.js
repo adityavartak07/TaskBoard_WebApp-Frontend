@@ -20,7 +20,7 @@ export const signup = (formData, router) => async (dispatch) => {
 
     dispatch({ type: AUTH, data });
 
-    router.push("/");
+    router.push("/done");
   } catch (error) {
     console.log(error);
   }
