@@ -6,8 +6,7 @@ An online pomodora as well as to do app that helps in tracking of various tasks,
 Pomodoro clock with task tracking ability.<br/>
 Consists of Client Side files.
 
-![](https://firebasestorage.googleapis.com/v0/b/confusion-1c185.appspot.com/o/images%2FScreenshot%20(124).png?alt=media&token=812add06-7a52-4d56-bded-6487f3f798a6)
-<br/>
+![](https://firebasestorage.googleapis.com/v0/b/confusion-1c185.appspot.com/o/images%2FScreenshot%20(124).png?alt=media&token=812add06-7a52-4d56-bded-6487f3f798a6)<br/>
 ![](https://firebasestorage.googleapis.com/v0/b/confusion-1c185.appspot.com/o/images%2FScreenshot%20(123).png?alt=media&token=86811868-124c-4a2c-b9d4-d5fe67f98f0a)
 
 
